@@ -3,6 +3,7 @@
     package="com.example.kadir.intagramcloneparse">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:name=".ParseStarterActivity"
@@ -19,7 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FeedAvtivity"></activity>
+        <activity android:name=".FeedAvtivity" />
+        <activity android:name=".UploadActivity"></activity>
     </application>
 
 </manifest>
